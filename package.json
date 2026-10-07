@@ -1,0 +1,5 @@
+- name: Установка зависимостей
+        run: npm install
+
+      - name: Запуск тестов
+        run: npm test
