@@ -19,3 +19,9 @@ jobs:
 
       - name: Проверяем версию Node
         run: node --version
+        
+      - name: Установка зависимостей
+        run: npm install
+
+      - name: Запуск тестов
+        run: npm test
